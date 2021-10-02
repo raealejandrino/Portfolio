@@ -21,14 +21,15 @@ header nav img {
 .hero {
     display: flex;
     justify-content: center;
-    width: 100%;
-    background-color: green;
+    background-color: blue;
+    padding: 75px;
 }
 
 .mainNav {
     display: flex;
     background-color: red;
     justify-content: center;
+    padding: 10px 20px;
 }
 
 .mainNav nav {
@@ -41,11 +42,17 @@ header nav img {
     justify-content: space-around;
 }
 
+main {
+    height: 600px;
+    background: black;
+}
+
 .portfolio {
     display: flex;
-    height: 500px;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: blue;
+    padding: 20px;
     
 
 }
@@ -59,10 +66,27 @@ header nav img {
 
 .contactForm {
     background-color: green;
-    height: 150px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 10px;
+}
+
+.section-title {
+    width: 50%;
+    margin: 0 auto 35px auto ;
+    text-align: center;
+}
+
+.contactForm div {
+    height: 300px;
+    width: 200px;
+    text-align: center;
+}
+
+.contactForm form {
+    display: block;
 }
 
 footer {

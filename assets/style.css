@@ -70,7 +70,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 60px;
 }
 
 .section-title {
@@ -80,7 +80,7 @@ main {
 }
 
 .contactForm div {
-    height: 300px;
+    
     width: 200px;
     text-align: center;
 }

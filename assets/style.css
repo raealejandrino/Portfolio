@@ -3,9 +3,13 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: blue;
     padding: 20px 35px;
     align-items: center;
+    background-image: url("./images/jumbotron.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 header h1 {
@@ -23,13 +27,33 @@ header nav img {
     justify-content: center;
     background-color: blue;
     padding: 75px;
+    background-image: url("./images/jumbotron.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+
+
+.hero div {
+    height: 275px;
+    width: 275px;
+    border: 10px solid white;
+    border-radius: 50%;
+    background-image: url("./images/heropfp.jpg");
+    background-size: 300%;
+    background-position: center;
 }
 
 .mainNav {
     display: flex;
-    background-color: red;
     justify-content: center;
-    padding: 10px 20px;
+    background-image: url("./images/jumbotron.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 .mainNav nav {
@@ -77,6 +101,8 @@ main {
     width: 50%;
     margin: 0 auto 35px auto ;
     text-align: center;
+    font-weight: lighter;
+    font-size: 24px;
 }
 
 .contactForm div {
@@ -91,9 +117,13 @@ main {
 
 footer {
     display: flex;
+    flex-direction: column;
     background-color: red;
     justify-content: center;
+    padding: 20px;
+    text-align: center;
 }
+
 
 
 

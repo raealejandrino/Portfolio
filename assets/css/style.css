@@ -240,8 +240,8 @@ main {
 
 
 #aboutMe div {
-    height: 100px;
-    width: 100px;
+    height: 500px;
+    width: 500px;
     background-color: white;
 }
 
@@ -251,13 +251,6 @@ main {
     background-color: blue;
 }
 
-.pages .page {
-    display: none;
-}
-
-.pages .page.is-active {
-    display: block;
-}
 
 
 
@@ -327,4 +320,13 @@ footer {
 
 
 
+
+
+.pages .page {
+    display: none;
+}
+
+.pages .page.is-active {
+    display: block;
+}
 

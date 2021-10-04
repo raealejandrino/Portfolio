@@ -75,8 +75,8 @@ header nav img {
 }
 
 main {
-  height: 2000px;
-    background-color: black;
+    height: 800px;
+    background-color: white;
 }
 
 #portfolio {
@@ -90,16 +90,9 @@ main {
 
 }
 
-#portfolio div {
-    width: 400px;
-    height: 300px;
-    background-color: yellow;
-    margin: 20px;
-}
-
 #firstApp {
-    flex: 3 0 73%;
-
+    width: 70%;
+    height: 280px;
     background-image: url("../images/jumbotron.jpeg");
     background-size: cover;
     border: 5px solid white;
@@ -108,7 +101,8 @@ main {
     opacity: 75%;
     transition: .25s;
     transition-timing-function: ease-in-out;
-    margin: 0 40%;
+    margin: 0 30%;
+
  
     
 }
@@ -136,7 +130,7 @@ main {
 
 
 #secondApp {
-    
+    width: 20%;
     background-image: url("../images/jumbotron.jpeg");
     background-size: cover;
     border: 5px solid white;
@@ -173,6 +167,7 @@ main {
 
 
 #thirdApp {
+   
     background-image: url("../images/jumbotron.jpeg");
     background-size: cover;
     border: 5px solid white;
@@ -206,6 +201,7 @@ main {
 
 
 #fourthApp {
+ 
     background-image: url("../images/jumbotron.jpeg");
     background-size: cover;
     border: 5px solid white;

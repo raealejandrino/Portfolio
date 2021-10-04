@@ -15,11 +15,13 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 28px;
+    display: none;
 }
 
 header nav img {
     height: 50px;
     width: 50px;
+    display: none;
 }
 
 
@@ -28,19 +30,21 @@ header nav img {
 /* hero start */
 .hero {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    background-color: blue;
     padding: 75px;
     background-image: url("../images/jumbotron.jpeg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-position: 80%;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.75)
 }
 
 
 
-.hero div {
+#profilePicture {
     height: 275px;
     width: 275px;
     border: 10px solid white;
@@ -48,6 +52,17 @@ header nav img {
     background-image: url("../images/heropfp.jpg");
     background-size: 300%;
     background-position: center;
+}
+
+.hero div {
+    text-align: center;
+    margin: 20px;
+}
+
+.hero div h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: white;
 }
 
 /* hero end */
@@ -262,7 +277,7 @@ main {
 #aboutMe div {
     height: 500px;
     width: 500px;
-    background-color: white;
+    background-color: green;
 }
 
 /* About me end */

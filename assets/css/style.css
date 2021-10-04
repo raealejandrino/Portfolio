@@ -101,12 +101,13 @@ main {
     background-color: rgb(255, 255, 255);
     padding: 75px;
     height: 100%;
+  
     
 
 }
 
 #firstApp {
-    width: 70%;
+    flex: 3 0 70%;
     height: 280px;
     background-image: url("../images/jumbotron.jpeg");
     background-size: cover;
@@ -117,6 +118,7 @@ main {
     transition: .25s;
     transition-timing-function: ease-in-out;
     margin: 0 30%;
+
 
  
     
@@ -145,7 +147,8 @@ main {
 
 
 #secondApp {
-    width: 20%;
+    width: 400px;
+    height: 300px;
     background-image: url("../images/jumbotron.jpeg");
     background-size: cover;
     border: 5px solid white;
@@ -182,7 +185,8 @@ main {
 
 
 #thirdApp {
-   
+    width: 400px;
+    height: 300px;
     background-image: url("../images/jumbotron.jpeg");
     background-size: cover;
     border: 5px solid white;
@@ -216,7 +220,8 @@ main {
 
 
 #fourthApp {
- 
+    width: 400px;
+    height: 300px;
     background-image: url("../images/jumbotron.jpeg");
     background-size: cover;
     border: 5px solid white;

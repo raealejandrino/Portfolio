@@ -82,34 +82,92 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 75px;
     height: 100%;
     
 
 }
 
 .portfolio div {
-    width: 300px;
+    width: 400px;
     height: 300px;
     background-color: yellow;
     margin: 20px;
 }
 
 #firstApp {
-    flex: 3 1 100%;
+    flex: 3 0 73%;
     height: 50%;
     background-image: url("./images/jumbotron.jpeg");
     background-size: cover;
     border: 5px solid white;
     box-shadow: 0 0 10px rgba(66, 66, 66, 0.5);
+    overflow: hidden;
+    opacity: 75%;
+    transition: .25s;
+    transition-timing-function: ease-in-out;
+    margin: 0 40%;
+ 
+    
 }
 
+#firstApp h2 {
+    position: relative;
+    left: 100px;
+    top: 105%;
+    transition: top .25s;
+    transition-timing-function: ease-in-out;
+    
+
+}
+#firstApp:hover {
+    opacity: 1;
+    flex: 3 0 75%;
+    height: 57%;
+}
+
+#firstApp:hover h2{
+    top: 90%;
+
+}
+
+
+
 #secondApp {
+    
     background-image: url("./images/jumbotron.jpeg");
     background-size: cover;
     border: 5px solid white;
     box-shadow: 0 0 10px rgba(66, 66, 66, 0.5);
+    overflow: hidden;
+    opacity: 75%;
+    transition: .25s;
+    transition-timing-function: ease-in-out;
+    
 }
+
+
+#secondApp h3 {
+    position: relative;
+    left: 60px;
+    top: 105%;
+    transition: top .25s;
+    transition-timing-function: ease-in-out;
+    
+
+}
+#secondApp:hover {
+    width: 425px;
+    height: 320px;
+    opacity: 1;
+
+}
+
+#secondApp:hover h3{
+    top: 90%;
+
+}
+
 
 
 #thirdApp {
@@ -117,6 +175,31 @@ main {
     background-size: cover;
     border: 5px solid white;
     box-shadow: 0 0 10px rgba(66, 66, 66, 0.5);
+    overflow: hidden;
+    opacity: 75%;
+    transition: .25s;
+    transition-timing-function: ease-in-out;
+}
+
+#thirdApp h3 {
+    position: relative;
+    left: 60px;
+    top: 105%;
+    transition: top .25s;
+    transition-timing-function: ease-in-out;
+    
+
+}
+#thirdApp:hover {
+    width: 425px;
+    height: 320px;
+    opacity: 1;
+
+}
+
+#thirdApp:hover h3{
+    top: 90%;
+
 }
 
 
@@ -125,7 +208,33 @@ main {
     background-size: cover;
     border: 5px solid white;
     box-shadow: 0 0 10px rgba(66, 66, 66, 0.5);
+    overflow: hidden;
+    opacity: 75%;
+    transition: .25s;
+    transition-timing-function: ease-in-out;
 }
+
+#fourthApp h3 {
+    position: relative;
+    left: 60px;
+    top: 105%;
+    transition: top .25s;
+    transition-timing-function: ease-in-out;
+    
+
+}
+#fourthApp:hover {
+    width: 425px;
+    height: 320px;
+    opacity: 1;
+
+}
+
+#fourthApp:hover h3{
+    top: 90%;
+
+}
+
 
 
 

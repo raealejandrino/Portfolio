@@ -1,5 +1,5 @@
 
-
+/* header start */
 header {
     display: flex;
     justify-content: space-between;
@@ -22,6 +22,10 @@ header nav img {
     width: 50px;
 }
 
+
+/* header end */
+
+/* hero start */
 .hero {
     display: flex;
     justify-content: center;
@@ -45,6 +49,11 @@ header nav img {
     background-size: 300%;
     background-position: center;
 }
+
+/* hero end */
+
+
+/* ABOVE MAIN NAV start */
 
 .mainNav {
     display: flex;
@@ -78,6 +87,12 @@ main {
     height: 800px;
     background-color: white;
 }
+
+/* end */
+
+/* MAIN SECTION */
+
+/* "Portfolio" start */
 
 #portfolio {
     display: flex;
@@ -233,6 +248,10 @@ main {
 
 }
 
+/* Portfolio end */
+
+/* About me start */
+
 
 
 #aboutMe div {
@@ -241,6 +260,11 @@ main {
     background-color: white;
 }
 
+/* About me end */
+
+/* Contact Main start */
+
+
 #contactMain div {
     height: 100px;
     width: 100px;
@@ -248,7 +272,11 @@ main {
 }
 
 
+/* Contact Main end */
 
+
+
+/* bottom contact form start */
 
 
 .contactForm {
@@ -306,6 +334,10 @@ main {
     display: block;
 }
 
+/* end */
+
+/* footer start */
+
 footer {
     display: flex;
     background-color: red;
@@ -316,7 +348,10 @@ footer {
 
 
 
+/* footer end */
 
+
+/* javascript */
 
 .pages .page {
     display: none;

@@ -57,7 +57,7 @@ header nav img {
  }
 
 .mainNav nav {
-    width: 60%;
+    width: 40%;
 
 }
 
@@ -73,7 +73,7 @@ header nav img {
 }
 
 main {
-    height: 900px;
+  
     background: black;
 }
 
@@ -97,7 +97,7 @@ main {
 
 #firstApp {
     flex: 3 0 73%;
-    height: 50%;
+
     background-image: url("./images/jumbotron.jpeg");
     background-size: cover;
     border: 5px solid white;
@@ -123,7 +123,7 @@ main {
 #firstApp:hover {
     opacity: 1;
     flex: 3 0 75%;
-    height: 57%;
+    height: 320px;
 }
 
 #firstApp:hover h2{
@@ -240,12 +240,30 @@ main {
 
 
 .contactForm {
-    background-color: green;
+    background-color: rgb(6, 21, 87);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px;
+    color: white;
+
+}
+
+.contactForm div h2 {
+    margin: 0 auto 10px auto;
+}
+
+.contactForm input, .contactForm textarea {
+    border: 1px solid white;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.75);
 }
 
 .section-title {
@@ -256,10 +274,20 @@ main {
     font-size: 24px;
 }
 
+.section-title2 {
+    width: 15%;
+    margin: 0 auto 35px auto;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+
 .contactForm div {
     
-    width: 200px;
-    text-align: center;
+    width: 20%;
+    text-align: left;
 }
 
 .contactForm form {

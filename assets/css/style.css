@@ -73,7 +73,7 @@ header nav img {
 }
 
 main {
-  
+  height: 1000px;
     background: black;
 }
 
@@ -234,6 +234,15 @@ main {
     top: 90%;
 
 }
+
+
+
+.aboutMe div {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+
 
 
 

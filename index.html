@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="./assets/reset.css" />
-        <link rel="stylesheet" href="./assets/style.css" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
         <title>Rae Alejandrino | Full Stack Developer</title>
     </head>
@@ -29,27 +29,30 @@
         <!-- Main nav -->
         <div class="mainNav">
             <nav class="section-title">
-                <ul>
-                    <li>
+                <ul class="tabs">
+                    <li class="tab is-active"><a data-switcher data-tab="1">
                         About me
+                    </a>
                     </li>
                     <div class="vl">
                     </div>
-                    <li>
+                    <li class="tab"><a data-switcher data-tab="2">
                         Portfolio
+                    </a>
                     </li>
                     <div class="vl">
                     </div>
-                    <li>
+                    <li class="tab"><a data-switcher data-tab="3">
                         Contact
+                    </a>
                     </li>
-                </ul>
+                    </ul>
             </nav>
         </div>
         <!-- MAIN ALT SECTIONS -->
-        <main>
+        <main class="pages">
             <!-- PORTFOLIO SECTION -->
-            <!-- <section class="portfolio">
+            <!-- <section class="page" data-page="2" id="portfolio">
                 <div id="firstApp">
                     <h2>
                         testFirst.
@@ -71,7 +74,12 @@
                     </h3>
                 </div>
             </section> -->
-            <section class="aboutMe">
+            <section class="page is-active" data-page="1" id="aboutMe">
+                <div>
+                    
+                </div>
+            </section>
+            <section class="page" data-page="3" id="contactMain">
                 <div>
                     
                 </div>
@@ -109,6 +117,6 @@
                 </h4>
             </div>
         </footer>
-
+        <script src="assets/js/main.js"></script>
     </body>
 </html>

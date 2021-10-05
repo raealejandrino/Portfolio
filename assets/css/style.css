@@ -274,18 +274,18 @@ main {
 }
 
 .section-title2 {
-    width: 15%;
+    min-width: 30%;
     margin: 0 auto 35px auto;
     text-align: center;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 40px;
     padding-bottom: 20px;
     border-bottom: 2px solid white;
 }
 
 .contactForm div {
     
-    width: 20%;
+    min-width: 20%;
     text-align: left;
 }
 
@@ -321,3 +321,9 @@ footer {
     display: block;
 }
 
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+
+}

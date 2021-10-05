@@ -103,7 +103,7 @@ header nav img {
 }
 
 main {
-    height: 1000px;
+  
     background-color: white;
 }
 
@@ -188,7 +188,7 @@ main {
     border-top: 1px solid black;
   
     min-width: 30%;
-    max-width: 45%;
+    max-width: 65%;
     text-indent: 25px;
     line-height: 30px;
     font-size: 20px;
@@ -203,7 +203,7 @@ main {
 #contactMain  {
     display: flex;
     height: 600px;
-    width: 800px;
+    max-width: 40%;
    margin: 100px auto;
     flex-direction: column;
     justify-content: space-around;
@@ -329,7 +329,7 @@ footer {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     .mainNav nav {
         width: 60%;
     }
@@ -345,5 +345,43 @@ footer {
         min-width: 70%;
        
     }
+
+    #portfolio {
+        flex-direction: column;
+        min-height: 15%;
+       
+    }
+    #firstApp {
+        margin: 0;
+        min-height: 35%;
+    }
+
+    .pfFlex h3 {
+        top: 80%;
+    }
+    .pfFlex:hover h3 {
+        top: 80%;
+    }
+
+    #contactMain {
+        max-width: 80%;
+    }
    
+}
+
+
+@media screen and (max-width: 575px) {
+    .linkLinks {
+        display: none;
+    }
+    #contactMain div {
+        justify-content: center;
+    }
+
+    .pfFlex h3 {
+        left: 20px;
+    }
+    #aboutMe {
+        padding: 20px;
+    }
 }

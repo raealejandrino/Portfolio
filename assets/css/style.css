@@ -109,19 +109,64 @@ main {
 
 /* "Portfolio" start */
 
+
+
 #portfolio {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
-    padding: 75px;
-    height: 100%;
+    height: 800px;
+    padding: 50px;
   
     
 
 }
 
+.pfFlex {
+    min-width: 20%;
+    min-height: 20%;
+    background-image: url("../images/jumbotron.jpeg");
+    background-size: cover;
+    border: 5px solid white;
+    box-shadow: 0 0 10px rgba(66, 66, 66, 0.5);
+    overflow: hidden;
+    opacity: 75%;
+    transition: .25s;
+    transition-timing-function: ease-in-out;
+    margin: 5px;
+
+}
+
+.pfFlex h3 {
+    position: relative;
+    left: 100px;
+    top: 105%;
+    transition: top .25s;
+    transition-timing-function: ease-in-out;
+}
+
 #firstApp {
+    min-width: 60%;
+    min-height: 50%;
+    margin: 0 50%;
+}
+
+.pfFlex:hover {
+    min-width: 25%;
+
+    opacity: 1;
+}
+
+.pfFlex:hover h3 {
+    top: 90%;
+}
+
+#firstApp:hover {
+    min-width: 65%;
+}
+
+/* #firstApp {
     flex: 3 0 70%;
     height: 280px;
     background-image: url("../images/jumbotron.jpeg");
@@ -134,9 +179,6 @@ main {
     transition-timing-function: ease-in-out;
     margin: 0 30%;
 
-
- 
-    
 }
 
 #firstApp h2 {
@@ -266,7 +308,7 @@ main {
 #fourthApp:hover h3{
     top: 90%;
 
-}
+} */
 
 /* Portfolio end */
 

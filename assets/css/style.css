@@ -174,17 +174,17 @@ main {
 
 
 #aboutMe {
-    display: flex;
-    justify-content: center;
+    
+    margin: 100px auto;
+    padding: 60px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+  
+    width: 800px;
+    text-indent: 25px;
+    line-height: 30px;
+    font-size: 20px;
 
-    margin: 75px;
-    height: 80%;
-
-}
-#aboutMe article {
-    min-width: 60%;
-    min-height: 28%;
-    background-color: green;
 }
 
 /* About me end */

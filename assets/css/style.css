@@ -81,7 +81,7 @@ header nav img {
  }
 
 .mainNav nav {
-    width: 40%;
+    width: 30%;
 
 }
 
@@ -99,7 +99,7 @@ header nav img {
 }
 
 main {
-    height: 800px;
+    height: 1000px;
     background-color: white;
 }
 
@@ -147,7 +147,7 @@ main {
 }
 
 #firstApp {
-    min-width: 60%;
+    min-width: 61%;
     min-height: 50%;
     margin: 0 50%;
 }
@@ -370,7 +370,7 @@ main {
 
 .section-title {
     width: 50%;
-    margin: 0 auto 35px auto ;
+    margin: 0 auto 25px auto ;
     text-align: center;
     font-weight: lighter;
     font-size: 24px;
@@ -402,10 +402,11 @@ main {
 
 footer {
     display: flex;
-    background-color: red;
+    background-color: rgba(100, 100, 100, 0.5);
     justify-content: space-between;
     padding: 20px;
     text-align: center;
+    color: black;
 }
 
 

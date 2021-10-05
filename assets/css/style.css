@@ -91,6 +91,10 @@ header nav img {
     align-items: center;
 }
 
+.mainNav nav ul li {
+    padding: 20px;
+}
+
 
 
 .vl {
@@ -183,7 +187,8 @@ main {
     border-bottom: 1px solid black;
     border-top: 1px solid black;
   
-    width: 800px;
+    min-width: 30%;
+    max-width: 45%;
     text-indent: 25px;
     line-height: 30px;
     font-size: 20px;
@@ -267,7 +272,7 @@ main {
 
 .section-title {
     width: 50%;
-    margin: 0 auto 25px auto ;
+    /* margin: 0 auto 25px auto ; */
     text-align: center;
     font-weight: lighter;
     font-size: 24px;
@@ -285,7 +290,7 @@ main {
 
 .contactForm div {
     
-    min-width: 20%;
+    min-width: 30%;
     text-align: left;
 }
 
@@ -325,5 +330,20 @@ footer {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
+    .mainNav nav {
+        width: 60%;
+    }
+    .section-title {
+        font-size: 18px;
+    }
 
+    .contactForm div {
+        min-width: 40%;
+    }
+
+    #aboutMe {
+        min-width: 70%;
+       
+    }
+   
 }

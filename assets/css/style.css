@@ -155,8 +155,12 @@ main {
     min-width: 61%;
     min-height: 50%;
     margin: 0 50%;
-    background-image: url("../images/runbuddy.png");
+    background-image: url("../images/vld8r.png");
     font-size: 36px;
+}
+
+#secondApp {
+    background-image: url("../images/runbuddy.png");
 }
 
 .pfFlex:hover {
